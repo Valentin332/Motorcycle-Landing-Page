@@ -8,44 +8,47 @@ export default function Consulta(props){
       .then( datos => setProvincias(datos.provincias))
    }
    ,[])
-   const provinciasOptions = provincias.map(provincia => { return  <option>{provincia.nombre}</option> })
+   const provinciasOptions = provincias.map((provincia,ind) => { return  <option key={ind}>{provincia.nombre}</option> })
 
    return(
-      <section>
-  <form className="mb-10 w-3/4 m-auto">
-   <h1 className={props.modo === "seccion" ? "text-6xl mt-4" : "text-5xl"}>
+      <section className="w-3/4 mx-auto">
+  <form className="mb-10 m-auto">
+   <h1 className={props.modo === "seccion" ? "text-6xl mt-4 text-blue-800" : "text-5xl text-blue-800"}>
       {props.modo === "trabajo" ? "Dejanos tu C.V acá" : "Podes mandarnos tus consultas acá"}
       </h1>
    <div className="flex flex-wrap ">
-   <input className="border-b border-b-black mr-10 mt-10 basis-1/4" type="text" placeholder="Nombre y Apellido"></input>
-   <input className="border-b border-b-black mr-10 mt-10 basis-1/4" type="email" placeholder="Email"></input>
-   <input className="border-b border-b-black mr-10 mt-10 basis-1/4" type="tel"  placeholder="Telefono de contacto"></input>
-  <select className="mr-7 mt-10 basis-1/4">
+   <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="text" placeholder="Nombre y Apellido"></input>
+   <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="email" placeholder="Email"></input>
+   <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="tel"  placeholder="Telefono de contacto"></input>
+  <select className="focus:outline-blue-800 border border-b-cdblue-800 mr-7 mt-10 basis-1/4">
    {provinciasOptions}
   </select>
-  <input className="border-b border-b-black mr-7 mt-10 basis-1/4" type="text" placeholder="Localidad"></input>
+  <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-7 mt-10 basis-1/4" type="text" placeholder="Localidad"></input>
   </div>
 
   {props.modo === "trabajo" ?
   <div className="mt-10 mb-12">
-  <label className="text-3xl py-4 px-6 hover:cursor-pointer border rounded-lg border-black"htmlFor="cv">
+  <label className="text-3xl py-4 px-6 hover:cursor-pointer hover:bg-blue-600 border rounded-lg  bg-blue-800 text-white"htmlFor="cv">
   <input className="opacity-0 w-[0.1px] h-[0.1px] absolute" id="cv" type="file"/>
    Adjuntá tu Curriculum
    </label>
   </div>
   :
-   <textarea rows="8" cols="60"className="px-2 mt-10 rounded-md border border-black" placeholder="Comentarios..."></textarea>
+   <textarea rows="8" cols="60"className=" focus:outline-blue-800 px-2 mt-10 rounded-md border border-blue-800" placeholder="Comentarios..."></textarea>
    }
 
-   <button className=" text-2xl px-4 py-3 mt-4 block border border-black ml-0">{props.modo === "trabajo" ? "Enviar" : "Enviar Consulta"}</button>
+   <button className=" text-2xl px-4 py-3 mt-4 block  font-bold border-2 rounded-md border-white text-white bg-blue-800 
+   hover:text-blue-800 hover:border-blue-800 hover:bg-white ml-0">{props.modo === "trabajo" ? "Enviar" : "Enviar Consulta"}</button>
    </form>
+
    {props.modo === "seccion" &&
-   <aside className="m-auto w-3/4 my-4 px-4 py-2 border border-black rounded-md">
+   <aside className=" w-fit my-10 px-4 py-2 border border-blue-800 text-blue-800 rounded-md">
    <h2 className="text-3xl my-2">Comunicate con nuestro servicio de atención al cliente</h2>
    <p className="text-2xl">XXXX-XXX-XXXX</p>
    <h4 className="mb-2">(Lunes a viernes de 09:00 a 13:00hs y de 14:00 a 17:00hs)</h4>
    </aside>  
    }
+   {props.modo === "trabajo" && <img className="w-full h-1/2" src="../../imgs/stock_4.jpg"/>}
    </section> 
    )
 }

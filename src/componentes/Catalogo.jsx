@@ -2,25 +2,17 @@ import MotoCard from "./MotoCard"
 import {useState} from "react"
 export default function Catalogo(props){
 const [categoria, setCategoria] = useState("STREET");
-const motoImgs = {
-  scootersImgs: ["../../imgs/Scooters/honda_adv_150.webp","../../imgs/Scooters/honda_adv_350.jpg","../../imgs/Scooters/honda_activa.webp",
-  "../../imgs/Scooters/honda_activa_125.jpg","../../imgs/Scooters/honda_airblade_150.jpg","../../imgs/Scooters/honda_beat_street.png",
-  "../../imgs/Scooters/benly.webp"
-  ],
-  streetsImgs: ["../../imgs/Streets/honda_cb_1000R.jpeg","../../imgs/Streets/honda_cb_1000R_black_edition.png","../../imgs/Streets/honda_cb_125R.jpg",
-  "../../imgs/Streets/honda_cb_125E.webp","../../imgs/Streets/honda_cb_300R.jpg","../../imgs/Streets/honda_cb_300R_NeoSportsCafe.jpg",
-  "../../imgs/Streets/honda_cb_500F.jpg","../../imgs/Streets/honda_cb_650R.jpg"],
-  offImgs: ["../../imgs/Offs/africa_twin.jpg","../../imgs/Offs/africa_twin_as.jpg"]
- };
- 
 
+ 
+ console.log(props.motoDatos())
 const scooters = props.motoDatos().scooters.map((scooter,ind) => {
   return(
     <MotoCard
     key={ind}
-    url={motoImgs.scootersImgs[ind]} 
-    modelo={scooter.model}
-    año={scooter.year}
+    url={props.motoDatos().scootersImgs[0][ind]} 
+    modelo={scooter.modelo}
+    año={scooter.año}
+    categoria="scooters_"
     />
   )
 });
@@ -29,9 +21,10 @@ const streets = props.motoDatos().streets.filter((street,ind) => ind < 9).map((s
   return(
     <MotoCard
     key={ind}
-    url={motoImgs.streetsImgs[ind]} 
-    modelo={street.model}
-    año={street.year}
+    url={props.motoDatos().streetsImgs[0][ind]} 
+    modelo={street.modelo}
+    año={street.año}
+    categoria="streets_"
     />
   ) 
 });
@@ -40,9 +33,10 @@ const offRoads = props.motoDatos().offRoads.filter((off,ind) => ind < 9).map((of
   return(
     <MotoCard
     key={ind}
-    url={motoImgs.offImgs[ind]} 
-    modelo={off.model}
-    año={off.year}
+    url={props.motoDatos().offImgs[0][ind]} 
+    modelo={off.modelo}
+    año={off.año}
+    categoria="offRoads_"
     />
   ) 
 });
@@ -61,14 +55,17 @@ function mostrarMotos(){
   }
 }
    return(
-    <section>
+    <section className="bg-gray-200 pb-20">
     <nav className="flex justify-around"id="categorias-motos">
-      <button onClick={handleClick} className="border border-black rounded-xl my-4 py-2 px-4 text-2xl">STREET</button>
-      <button onClick={handleClick} className="border border-black rounded-xl my-4 py-2 px-4 text-2xl">OFF</button>
-      <button onClick={handleClick} className="border border-black rounded-xl my-4 py-2 px-4 text-2xl">SCOOTER</button>
+      <button onClick={handleClick} className="border  rounded-xl my-4 py-2 px-4 text-3xl border-white text-white font-bold bg-blue-800 
+      hover:text-blue-800 hover:border-blue-800 hover:bg-white">STREET</button>
+      <button onClick={handleClick} className="border  rounded-xl my-4 py-2 px-4 text-3xl border-white text-white font-bold bg-blue-800 
+      hover:text-blue-800 hover:border-blue-800 hover:bg-white ">OFF</button>
+      <button onClick={handleClick} className="border  rounded-xl my-4 py-2 px-4 text-3xl border-white text-white font-bold bg-blue-800 
+      hover:text-blue-800 hover:border-blue-800 hover:bg-white ">SCOOTER</button>
       </nav> 
       <section className="m-auto">
-      <div id="wrapper" className="flex flex-wrap justify-evenly gap-x-20 gap-y-10">
+      <div id="wrapper" className=" flex flex-col lg:flex-row lg:flex-wrap lg:justify-evenly lg:gap-x-20 gap-y-10">
       {mostrarMotos()}
       </div>
       </section>

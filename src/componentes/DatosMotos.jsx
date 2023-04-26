@@ -279,7 +279,7 @@ const motoDatos = [
     },
     {
       "marca": "Honda",
-      "model": "BeAT Street",
+      "modelo": "BeAT Street",
       "año": "2022",
       "tipo": "Scooter",
       "cilindrada": "108,0 ccm (6,59 pulgadas cúbicas)",
@@ -307,83 +307,83 @@ const motoDatos = [
       "arranque": "Eléctrico y patada"
     },
     {
-      "make": "Honda",
-      "model": "Benly",
-      "year": "2022",
-      "type": "Scooter",
-      "displacement": "108.0 ccm (6.59 cubic inches)",
-      "engine": "Single cylinder, four-stroke",
-      "power": "7.8 HP (5.7  kW)) @ 7000 RPM",
-      "torque": "8.6 Nm (0.9 kgf-m or 6.3 ft.lbs) @ 5000 RPM",
-      "compression": "9.5:1",
-      "bore_stroke": "50.0 x 55.0 mm (2.0 x 2.2 inches)",
-      "valves_per_cylinder": "2",
-      "fuel_system": "Injection. PGM-FI",
-      "fuel_control": "Overhead Cams (OHC)",
-      "cooling": "Air",
-      "gearbox": "Automatic",
-      "transmission": "Belt   (final drive)",
-      "clutch": "Dry multi-plate shoe",
-      "fuel_consumption": "1.89 litres/100 km (52.9 km/l or 124.46 mpg)",
-      "emission": "43.8 CO2 g/km. (CO2 - Carbon dioxide emission) ",
-      "frame": "Underbone",
-      "front_suspension": "Telescopic fork",
-      "front_wheel_travel": "81 mm (3.2 inches)",
-      "rear_suspension": "Unit swing type",
-      "rear_wheel_travel": "73 mm (2.9 inches)",
-      "front_tire": "90/90-12 ",
-      "rear_tire": "110/80-10 ",
-      "front_brakes": "Expanding brake (drum brake)",
-      "rear_brakes": "Expanding brake (drum brake)",
-      "dry_weight": "116.0 kg (255.7 pounds)",
-      "seat_height": "710 mm (28.0 inches) If adjustable, lowest setting.",
-      "total_height": "1040 mm (40.9 inches)",
-      "total_length": "1815 mm (71.5 inches)",
+      "marca": "Honda",
+      "modelo": "Benly",
+      "año": "2022",
+      "tipo": "Scooter",
+      "cilindrada": "108,0 ccm (6,59 pulgadas cúbicas)",
+      "motor": "monocilíndrico, cuatro tiempos",
+      "potencia": "7,8 CV (5,7 kW)) @ 7000 RPM",
+      "par": "8,6 Nm (0,9 kgf-m o 6,3 ft.lbs) @ 5000 RPM",
+      "compresión": "9.5:1",
+      "diámetro_carrera": "50,0 x 55,0 mm (2,0 x 2,2 pulgadas)",
+      "válvulas_por_cilindro": "2",
+      "sistema_combustible": "Inyección PGM-FI",
+      "control_combustible": "Levas en cabeza (OHC)",
+      "refrigeración": "Aire",
+      "caja de cambios": "Automática",
+      "transmisión": "Correa (transmisión final)",
+      "embrague": "Zapata multidisco en seco",
+      "consumo_combustible": "1,89 litros/100 km (52,9 km/l o 124,46 mpg)",
+      "emission": "43,8 g/km de CO2 (CO2 - Emisión de dióxido de carbono) ",
+      "bastidor": "chasis",
+      "suspensión_delantera": "Horquilla telescópica",
+      "recorrido_rueda_delantera": "81 mm (3,2 pulgadas)",
+      "suspensión_trasera": "Tipo basculante unitario",
+      "recorrido_rueda_trasera": "73 mm (2.9 inches)",
+      "neumático_delantero": "90/90-12 ",
+      "neumático_trasero": "110/80-10 ",
+      "frenos_delanteros": "Freno de expansión (freno de tambor)",
+      "frenos_traseros": "Freno expansible (freno de tambor)",
+      "peso_seco": "116,0 kg (255,7 libras)",
+      "altura_asiento": "710 mm (28,0 pulgadas) Si es ajustable, la posición más baja",
+      "altura_total": "1040 mm (40,9 pulgadas)",
+      "longitud_total": "1815 mm (71,5 pulgadas)",
       "total_width": "680 mm (26.8 inches)",
-      "ground_clearance": "115 mm (4.5 inches)",
-      "wheelbase": "1280 mm (50.4 inches)",
-      "fuel_capacity": "10.00 litres (2.64 US gallons)",
-      "starter": "Electric"
+      "distancia_al suelo": "115 mm (4.5 inches)",
+      "distancia entre ejes": "1280 mm (50,4 pulgadas)",
+      "capacidad_combustible": "10.00 litros (2.64 galones US)",
+      "arranque": "Eléctrico"
     },
     {
-      "make": "Honda",
-      "model": "CB1000R",
-      "year": "2022",
-      "type": "Naked bike",
-      "displacement": "998.0 ccm (60.90 cubic inches)",
-      "engine": "In-line four, four-stroke",
-      "power": "143.5 HP (104.7  kW)) @ 10500 RPM",
-      "torque": "104.0 Nm (10.6 kgf-m or 76.7 ft.lbs) @ 8250 RPM",
-      "compression": "11.6:1",
-      "bore_stroke": "76.0 x 56.5 mm (3.0 x 2.2 inches)",
-      "valves_per_cylinder": "4",
-      "fuel_system": "Injection. PGM-FI Fuel injection with automatic enrichment circuit and 36mm throttle bodies",
-      "fuel_control": "Double Overhead Cams/Twin Cam (DOHC)",
-      "ignition": "Computer-controlled digital transistorized with 3-D mapping",
-      "cooling": "Liquid",
-      "gearbox": "6-speed",
-      "transmission": "Chain   (final drive)",
-      "clutch": "Wet multiplate",
-      "fuel_consumption": "6.02 litres/100 km (16.6 km/l or 39.07 mpg)",
-      "emission": "139.7 CO2 g/km. (CO2 - Carbon dioxide emission) ",
-      "frame": "Steel mono backbone",
-      "front_suspension": "Showa SFF-BP USD fork",
-      "front_wheel_travel": "120 mm (4.7 inches)",
-      "rear_suspension": "Monoshock with gas-charged HMAS damper featuring 10-step pre-load and stepless rebound damping adjustment",
-      "rear_wheel_travel": "131 mm (5.2 inches)",
-      "front_tire": "120/70-ZR17 ",
-      "rear_tire": "190/55-ZR17 ",
-      "front_brakes": "Double disc. ABS. Floating discs. Four-piston calipers. Radially mounted. ",
-      "rear_brakes": "Single disc. ABS. Single-piston caliper. ",
-      "total_weight": "211.0 kg (465.2 pounds)",
-      "seat_height": "830 mm (32.7 inches) If adjustable, lowest setting.",
-      "total_height": "1090 mm (42.9 inches)",
-      "total_length": "2121 mm (83.5 inches)",
+      "marca": "Honda",
+      "modelo": "CB1000R",
+      "año": "2022",
+      "tipo": "moto desnuda",
+      "cilindrada": "998,0 ccm (60,90 pulgadas cúbicas)",
+      "motor": "cuatro en línea, cuatro tiempos",
+      "potencia": "143,5 CV (104,7 kW)) @ 10500 RPM",
+      "par": "104,0 Nm (10,6 kgf-m o 76,7 ft.lbs) @ 8250 RPM",
+      "compresión": "11.6:1",
+      "diámetro_carrera": "76,0 x 56,5 mm (3,0 x 2,2 pulgadas)",
+      "válvulas_por_cilindro": "4",
+      "sistema_combustible": "Inyección Inyección de combustible PGM-FI con circuito de enriquecimiento automático y cuerpos de mariposa de 36 mm",
+      "fuel_control": "Doble árbol de levas en cabeza/doble árbol de levas (DOHC)",
+      "ignición": "Transistorizado digital controlado por ordenador con mapeado 3D",
+      "refrigeración": "Líquido",
+      "caja de cambios": "6 velocidades",
+      "transmisión": "Cadena (transmisión final)",
+      "embrague": "multidisco húmedo",
+      "consumo_de_combustible": "6,02 litros/100 km (16,6 km/l o 39,07 mpg)",
+      "emisiones": "139,7 CO2 g/km. (CO2 - Emisión de dióxido de carbono)",
+      "bastidor": "Monocasco de acero",
+      "suspensión_delantera": "Horquilla Showa SFF-BP USD",
+      "recorrido_rueda_delantera": "120 mm (4,7 pulgadas)",
+      "suspensión_trasera": "Monoamortiguador con amortiguador HMAS cargado por gas con ajuste de precarga en 10 pasos y amortiguación de rebote sin escalonamientos",
+      "recorrido_rueda_trasera": "131 mm (5,2 pulgadas)",
+      "neumático_delantero": "120/70-ZR17",
+      "neumático_trasero": "190/55-ZR17 ",
+      "frenos_delanteros": "Doble disco. ABS. Discos flotantes. Pinzas de cuatro pistones. Montaje radial. ",
+      "frenos_traseros": "Disco simple. ABS. Pinza de un pistón. ",
+      "peso_total": "211,0 kg (465,2 libras)",
+      "altura_asiento": "830 mm (32,7 pulgadas) Si es ajustable, la posición más baja",
+      "altura_total": "1090 mm (42,9 pulgadas)",
+      "longitud_total": "2121 mm (83,5 pulgadas)",
       "total_width": "790 mm (31.1 inches)",
-      "ground_clearance": "131 mm (5.2 inches)",
-      "wheelbase": "1455 mm (57.3 inches)",
-      "fuel_capacity": "16.20 litres (4.28 US gallons)",
-      "starter": "Electric"
+      "distancia_al suelo": "131 mm (5,2 pulgadas)",
+      "distancia entre ejes": "1455 mm (57,3 pulgadas)",
+      "capacidad_combustible": "16,20 litros (4,28 galones US)",
+      "arranque": "Eléctrico"
     },
     {
       "marca": "Honda",
@@ -637,7 +637,7 @@ const motoDatos = [
     },
     {
       "marca": "Honda",
-      "model": "CB300R Neo Sports Cafe",
+      "modelo": "CB300R Neo Sports Cafe",
       "año": "2022",
       "tipo": "Naked bike",
       "cilindrada": "286,0 ccm (17,45 pulgadas cúbicas)",
@@ -865,7 +865,7 @@ const motoDatos = [
     },
     {
       "marca": "Honda",
-" modelo": "CBR1000RR-R Fireblade SP",
+      "modelo": "CBR1000RR-R Fireblade SP",
       "año": "2022",
       "tipo": "Sport",
       "cilindrada": "999.0 ccm (60.96 pulgadas cúbicas)",
@@ -1086,20 +1086,49 @@ const motoDatos = [
       "capacidad_combustible": "15,40 litros (4,07 galones US)",
       "arranque": "Eléctrico"
     }
-  ]
+  ];
+ 
 export function MotosDatosFiltrados(){
-   const scooters = motoDatos.filter(moto => moto.type === "Scooter");
+
+
+
+   const scooters = motoDatos.filter(moto => moto.tipo === "Scooter" || moto.type === "Scooter");
    const streets = motoDatos.filter(moto => {
-    if( moto.type == ("moto desnuda"||"Naked bike"||"Sport"||"Allround")){ return moto}
+    if( moto.tipo =='Allround'|| moto.tipo=="moto desnuda" || moto.tipo =='Sport'|| moto.tipo == "Naked bike" ){ return moto }
    });
-   const offRoads = motoDatos.filter(moto => moto.type === "Enduro / offroad")
+   const offRoads = motoDatos.filter(moto => moto.tipo === "Enduro / offroad");
+
+   const scootersImgs = [["../../imgs/Scooters/honda_adv_150.webp","../../imgs/Scooters/honda_adv_350.jpg","../../imgs/Scooters/honda_activa.webp",
+  "../../imgs/Scooters/honda_activa_125.jpg","../../imgs/Scooters/honda_airblade_150.jpg","../../imgs/Scooters/honda_beat_street.png",
+  "../../imgs/Scooters/benly.webp"
+  ],
+  ["../../imgs/Scooters/honda_adv_150_2.jpg","../../imgs/Scooters/honda_adv_350_2.jpg","../../imgs/Scooters/honda_activa_2.webp",
+  "../../imgs/Scooters/honda_activa_125_2.jpg","../../imgs/Scooters/honda_airblade_150_2.jpg","../../imgs/Scooters/honda_beat_street_2.jpg",
+  "../../imgs/Scooters/benly_2.png"]];
+
+  const streetsImgs = [["../../imgs/Streets/honda_ace_125.jpg","../../imgs/Streets/honda_cb_1000R.jpeg","../../imgs/Streets/honda_cb_1000R_black_edition.png","../../imgs/Streets/honda_cb_125F.jpg",
+  "../../imgs/Streets/honda_cb_125R.jpg","../../imgs/Streets/honda_cb_125E.webp","../../imgs/Streets/honda_cb_150F.jpg",
+  "../../imgs/Streets/honda_cb_200X.jpg","../../imgs/Streets/honda_cb_300R.jpg"
+  ],
+  ["../../imgs/Streets/honda_ace_125_2.jpg","../../imgs/Streets/honda_cb_1000R_2.jpg","../../imgs/Streets/honda_cb_1000R_black_edition_2.jpg","../../imgs/Streets/honda_cb_125F_2.jpg",
+  "../../imgs/Streets/honda_cb_125R_2.jpg","../../imgs/Streets/honda_cb_125E_2.jpg","../../imgs/Streets/honda_cb_150F_2.jpg",
+  "../../imgs/Streets/honda_cb_200X_2.webp","../../imgs/Streets/honda_cb_300R_2.jpg"]
+];
+
+  const offImgs = [["../../imgs/Offs/africa_twin.jpg","../../imgs/Offs/africa_twin_as.jpg"],
+  ["../../imgs/Offs/africa_twin_2.jpg","../../imgs/Offs/africa_twin_as_2.jpg"]
+  ];   
    
    const value = React.useMemo(() =>{
     return ({
      scooters,
      streets,
-     offRoads   
+     offRoads,
+     scootersImgs,
+     streetsImgs,
+     offImgs
+    
     })
-   },[scooters, streets, offRoads])
+   },[scooters, streets, offRoads, scootersImgs, streetsImgs, offImgs])
    return value 
 };
