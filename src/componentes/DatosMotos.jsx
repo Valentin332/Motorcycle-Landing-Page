@@ -214,7 +214,7 @@ const motoDatos = [
     },
     {
       "marca": "Honda",
-      "modelo": "Africa Twin Adventure Sports",
+      "modelo": "Africa Twin AS",
       "año": "2022",
       "tipo": "Enduro / offroad",
       "cilindrada": "1084,0 ccm (66,15 pulgadas cúbicas)",

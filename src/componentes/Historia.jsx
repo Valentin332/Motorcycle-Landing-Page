@@ -5,8 +5,7 @@ export default function Historia(){
     <section className="pb-4">
         <section className=" my-6 mx-auto text-center w-3/4 leading-8">
      <img/>
-     <h1 className="text-7xl font-['Faster_One','cursive']">VeloMAX</h1>
-     <h3>Slogan or someshit</h3>
+     <h1 className=" text-5xl lg:text-7xl font-['Faster_One','cursive']">VeloMAX</h1>
      <p>En 1990, dos hermanos llamados Marcos y Lautaro abrieron un pequeño taller de reparación de motocicletas en un garage. Viendo la demanda de motocicletas asequibles y fiables, empezaron a experimentar con diseños y acabaron creando su propia marca, VeloMAX. La empresa ganó popularidad rápidamente y en el año 2000 se convierte en uno de los mayores fabricantes de motocicletas de Argentina. Aunque experimentaron altibajos a lo largo de los años, su compromiso con la calidad y la satisfacción del cliente nunca decayó. Hoy en día, VeloMAX sigue innovando y produciendo algunas de las mejores motocicletas del mundo.
         </p>
         <h2 className="mt-10 text-4xl">Nuestros valores</h2>

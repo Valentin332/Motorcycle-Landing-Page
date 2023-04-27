@@ -28,7 +28,7 @@ export default function Consulta(props){
 
   {props.modo === "trabajo" ?
   <div className="mt-10 mb-12">
-  <label className="text-3xl py-4 px-6 hover:cursor-pointer hover:bg-blue-600 border rounded-lg  bg-blue-800 text-white"htmlFor="cv">
+  <label className="  lg:text-3xl py-4 px-6 hover:cursor-pointer hover:bg-blue-600 border rounded-lg  bg-blue-800 text-white"htmlFor="cv">
   <input className="opacity-0 w-[0.1px] h-[0.1px] absolute" id="cv" type="file"/>
    Adjuntá tu Curriculum
    </label>
@@ -48,7 +48,7 @@ export default function Consulta(props){
    <h4 className="mb-2">(Lunes a viernes de 09:00 a 13:00hs y de 14:00 a 17:00hs)</h4>
    </aside>  
    }
-   {props.modo === "trabajo" && <img className="w-full h-1/2" src="../../imgs/stock_4.jpg"/>}
+   {props.modo === "trabajo" && <img className="w-full h-1/2 pb-2" src="../../imgs/stock_4.jpg"/>}
    </section> 
    )
 }
