@@ -48,7 +48,7 @@ export default function Consulta(props){
    <h4 className="mb-2">(Lunes a viernes de 09:00 a 13:00hs y de 14:00 a 17:00hs)</h4>
    </aside>  
    }
-   {props.modo === "trabajo" && <img className="w-full h-1/2 pb-2" src="../../imgs/stock_4.jpg"/>}
+   {props.modo === "trabajo" && <img className="w-full h-1/2 pb-2" src="../../stock_4.jpg"/>}
    </section> 
    )
 }

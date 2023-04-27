@@ -3,15 +3,15 @@ import Consulta from "./Consulta.jsx"
 import react from "react"
 export default function Home(){
 const indexSlides = [{
-  img: "../../imgs/Scooters/honda_adv_150_2.jpg",
+  img: "../../Scooters/honda_adv_150_2.jpg",
   link: "Catalogo/scooters_ADV150"
 },
 {
-  img: "../../imgs/V(logo_2010).png",
+  img: "../../V(logo_2010).png",
   link: "/Nosotros"
 },
 {
-  img: "../../imgs/Streets/honda_cb_1000R_2.jpg",
+  img: "../../Streets/honda_cb_1000R_2.jpg",
   link: "Catalogo/streets_CB1000R"
 }];
 
@@ -26,7 +26,7 @@ const indexSlides = [{
         <input className='focus:outline-blue-800 px-2 mt-4 border text-2xl border-blue-800 rounded-lg' placeholder='Email' type='email'></input>
         <button className='block mx-auto my-4 px-3 py-3 text-3xl font-bold border-2 rounded-md border-white text-white bg-blue-800 hover:text-blue-800 hover:border-blue-800 hover:bg-white '>Suscribirme</button>
         </form>
-        <img className="w-full h-full lg:rounded-tr-xl lg:rounded-br-xl" src="../../imgs/stock_5.jpg"/>
+        <img className="w-full h-full lg:rounded-tr-xl lg:rounded-br-xl" src="../../stock_5.jpg"/>
         </div>
       <Consulta />
      </section>   

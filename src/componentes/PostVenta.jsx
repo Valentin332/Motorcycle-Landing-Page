@@ -11,7 +11,7 @@ const [modo, setModo] = useState("E-SERVICE")
 
     return(
      <section>
-        <section className="h-[40rem]  bg-cover w-3/4 mb-6 mx-auto text-center text-white bg-[url('../../imgs/deposito.png')]">
+        <section className="h-[40rem]  bg-cover w-3/4 mb-6 mx-auto text-center text-white bg-[url('../../deposito.png')]">
        {modo == "E-SERVICE" ?
        <div className=" md:text-3xl border border-transparent">
        <div className="mt-40 p-4">

@@ -1098,25 +1098,25 @@ export function MotosDatosFiltrados(){
    });
    const offRoads = motoDatos.filter(moto => moto.tipo === "Enduro / offroad");
 
-   const scootersImgs = [["../../imgs/Scooters/honda_adv_150.webp","../../imgs/Scooters/honda_adv_350.jpg","../../imgs/Scooters/honda_activa.webp",
-  "../../imgs/Scooters/honda_activa_125.jpg","../../imgs/Scooters/honda_airblade_150.jpg","../../imgs/Scooters/honda_beat_street.png",
-  "../../imgs/Scooters/benly.webp"
+   const scootersImgs = [["../../Scooters/honda_adv_150.webp","../../Scooters/honda_adv_350.jpg","../../Scooters/honda_activa.webp",
+  "../../Scooters/honda_activa_125.jpg","../../Scooters/honda_airblade_150.jpg","../../Scooters/honda_beat_street.png",
+  "../../Scooters/benly.webp"
   ],
-  ["../../imgs/Scooters/honda_adv_150_2.jpg","../../imgs/Scooters/honda_adv_350_2.jpg","../../imgs/Scooters/honda_activa_2.webp",
-  "../../imgs/Scooters/honda_activa_125_2.jpg","../../imgs/Scooters/honda_airblade_150_2.jpg","../../imgs/Scooters/honda_beat_street_2.jpg",
-  "../../imgs/Scooters/benly_2.png"]];
+  ["../../Scooters/honda_adv_150_2.jpg","../../Scooters/honda_adv_350_2.jpg","../../Scooters/honda_activa_2.webp",
+  "../../Scooters/honda_activa_125_2.jpg","../../Scooters/honda_airblade_150_2.jpg","../../Scooters/honda_beat_street_2.jpg",
+  "../../Scooters/benly_2.png"]];
 
-  const streetsImgs = [["../../imgs/Streets/honda_ace_125.jpg","../../imgs/Streets/honda_cb_1000R.jpeg","../../imgs/Streets/honda_cb_1000R_black_edition.png","../../imgs/Streets/honda_cb_125F.jpg",
-  "../../imgs/Streets/honda_cb_125R.jpg","../../imgs/Streets/honda_cb_125E.webp","../../imgs/Streets/honda_cb_150F.jpg",
-  "../../imgs/Streets/honda_cb_200X.jpg","../../imgs/Streets/honda_cb_300R.jpg"
+  const streetsImgs = [["../../Streets/honda_ace_125.jpg","../../Streets/honda_cb_1000R.jpeg","../../Streets/honda_cb_1000R_black_edition.png","../../Streets/honda_cb_125F.jpg",
+  "../../Streets/honda_cb_125R.jpg","../../Streets/honda_cb_125E.webp","../../Streets/honda_cb_150F.jpg",
+  "../../Streets/honda_cb_200X.jpg","../../Streets/honda_cb_300R.jpg"
   ],
-  ["../../imgs/Streets/honda_ace_125_2.jpg","../../imgs/Streets/honda_cb_1000R_2.jpg","../../imgs/Streets/honda_cb_1000R_black_edition_2.jpg","../../imgs/Streets/honda_cb_125F_2.jpg",
-  "../../imgs/Streets/honda_cb_125R_2.jpg","../../imgs/Streets/honda_cb_125E_2.jpg","../../imgs/Streets/honda_cb_150F_2.jpg",
-  "../../imgs/Streets/honda_cb_200X_2.webp","../../imgs/Streets/honda_cb_300R_2.jpg"]
+  ["../../Streets/honda_ace_125_2.jpg","../../Streets/honda_cb_1000R_2.jpg","../../Streets/honda_cb_1000R_black_edition_2.jpg","../../Streets/honda_cb_125F_2.jpg",
+  "../../Streets/honda_cb_125R_2.jpg","../../Streets/honda_cb_125E_2.jpg","../../Streets/honda_cb_150F_2.jpg",
+  "../../Streets/honda_cb_200X_2.webp","../../Streets/honda_cb_300R_2.jpg"]
 ];
 
-  const offImgs = [["../../imgs/Offs/africa_twin.jpg","../../imgs/Offs/africa_twin_as.jpg"],
-  ["../../imgs/Offs/africa_twin_2.jpg","../../imgs/Offs/africa_twin_as_2.jpg"]
+  const offImgs = [["../../Offs/africa_twin.jpg","../../Offs/africa_twin_as.jpg"],
+  ["../../Offs/africa_twin_2.jpg","../../Offs/africa_twin_as_2.jpg"]
   ];   
    
    const value = React.useMemo(() =>{

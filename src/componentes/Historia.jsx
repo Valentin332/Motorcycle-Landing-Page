@@ -10,15 +10,15 @@ export default function Historia(){
         </p>
         <h2 className="mt-10 text-4xl">Nuestros valores</h2>
         <div className="flex lg:flex-row flex-col">
-        <img src="../../imgs/V(logo_2010).png" className="lg:w-80 lg:h-80"/>
+        <img src="../../V(logo_2010).png" className="lg:w-80 lg:h-80"/>
         <p className=" mt-10 h-fill text-x">En VeloMAX, estamos orgullosos de nuestro compromiso con la excelencia, la innovación y la satisfacción del cliente. Nuestros valores fundamentales son la base de todo lo que hacemos, desde la calidad de nuestros productos hasta el nivel de servicio que ofrecemos a nuestros clientes. Creemos en la honestidad, la transparencia y la integridad, y nos dedicamos a crear un futuro seguro y sostenible para todos. Valoramos el trabajo en equipo, la actitud positiva y la pasión por nuestro trabajo, y nos esforzamos por superar las expectativas en todo momento. En VeloMAX, nuestro compromiso con la calidad y la innovación es inquebrantable, y estamos orgullosos de ser una fuerza líder en la industria de la motocicleta.
         </p>
         </div>
         <div className="flex flex-col lg:flex-row lg:border-2 border-black rounded-lg my-8">
-      <img className="lg:h-60  lg:w-1/4 p-6" src="../../imgs/stock_1.jpg"/>
-      <img className="lg:h-60  lg:w-1/4 p-6" src="../../imgs/stock_2.avif"/>
-      <img className="lg:h-60  lg:w-1/4 p-6" src="../../imgs/stock_3.jpg"/>
-      <img className="lg:h-60  lg:w-1/4 p-6" src="../../imgs/stock_4.webp"/>
+      <img className="lg:h-60  lg:w-1/4 p-6" src="../../stock_1.jpg"/>
+      <img className="lg:h-60  lg:w-1/4 p-6" src="../../stock_2.avif"/>
+      <img className="lg:h-60  lg:w-1/4 p-6" src="../../stock_3.jpg"/>
+      <img className="lg:h-60  lg:w-1/4 p-6" src="../../stock_4.webp"/>
         </div>
      <h1 className="text-4xl text-left my-6">¿Te interesa ser parte de VeloMAX?</h1>
      </section>
