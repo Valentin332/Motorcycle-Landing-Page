@@ -20,7 +20,7 @@ export default function Consulta(props){
    <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="text" placeholder="Nombre y Apellido"></input>
    <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="email" placeholder="Email"></input>
    <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-10 mt-10 basis-1/4" type="tel"  placeholder="Telefono de contacto"></input>
-  <select className="focus:outline-blue-800 border border-b-cdblue-800 mr-7 mt-10 basis-1/4">
+  <select className=" max-w-full focus:outline-blue-800 border border-b-cdblue-800 mr-7 mt-10 basis-1/4">
    {provinciasOptions}
   </select>
   <input className="border-b focus:outline-blue-800 border-b-blue-800 mr-7 mt-10 basis-1/4" type="text" placeholder="Localidad"></input>
