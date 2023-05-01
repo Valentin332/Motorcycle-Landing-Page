@@ -34,7 +34,7 @@ export default function Consulta(props){
    </label>
   </div>
   :
-   <textarea rows="8" cols="60"className=" focus:outline-blue-800 px-2 mt-10 rounded-md border border-blue-800" placeholder="Comentarios..."></textarea>
+   <textarea  cols="120"className="w-full focus:outline-blue-800 px-2 mt-10 rounded-md border border-blue-800" placeholder="Comentarios..."></textarea>
    }
 
    <button className=" text-2xl px-4 py-3 mt-4 block  font-bold border-2 rounded-md border-white text-white bg-blue-800 
