@@ -1,14 +1,10 @@
 import React from "react"
 
 export default function Consulta(props){
-   const [provincias, setProvincias] = React.useState([]);
-   React.useEffect( () => {
-      fetch("https://apis.datos.gob.ar/georef/api/provincias")
-      .then(datos => datos.json())
-      .then( datos => setProvincias(datos.provincias))
-   }
-   ,[])
-   const provinciasOptions = provincias.map((provincia,ind) => { return  <option key={ind}>{provincia.nombre}</option> })
+   const [provincias, setProvincias] = React.useState([
+   'Buenos Aires', 'CABA', 'Catamarca', 'Chaco', 'Chubut', 'Córdoba','Corrientes','Entre Rios','Formosa','Jujuy','La Pampa','La Rioja','Mendoza','Misiones','Neuquen','Río Negro','Salta','San Juan','San Luis','Santa Cruz','Santa Fé','Santiago del Estero','Tierra del Fuego, Antártida e Islas del Atlántico Sur','Tucumán' 
+]);
+   const provinciasOptions = provincias.map((provincia,ind) => { return  <option key={ind}>{provincia}</option> })
 
    return(
       <section className="w-3/4 mx-auto">
